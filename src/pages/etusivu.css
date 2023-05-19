@@ -2,7 +2,7 @@
     font-size: 20pt;
 }
 
-.text {
+.front-page-text {
     padding-top: 30px;
     padding-left: 50px;
     padding-right: 20px;
@@ -27,7 +27,7 @@
         line-height: 0.3;
     }
 
-    .text {
+    .front-page-text {
         min-width: 200px;
         max-width: 90%;
         line-height: 0.3;

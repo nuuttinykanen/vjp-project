@@ -2,9 +2,9 @@ import React from 'react';
 import { CommentArea } from '../components/comment/CommentArea';
 import './keskustelu.css';
 
-function Etusivu() {
+function Keskustelu() {
   return (
-    <div className='etusivu'>
+    <div className='keskustelu'>
       <h1 className = 'title'>Keskustelu</h1>
       <div className = 'text'>
         <span className ='text-content'>
@@ -19,4 +19,4 @@ function Etusivu() {
   );
 }
 
-export default Etusivu;
+export default Keskustelu;

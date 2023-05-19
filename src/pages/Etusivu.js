@@ -6,7 +6,7 @@ function Etusivu() {
   return (
     <div className='etusivu'>
       <h1 className = 'title'>Miksi istumista tulee välttää?</h1>
-      <div className = 'text'>
+      <div className = 'front-page-text'>
         <span className ='text-content'>
         Istumme elinkautista – jopa vapaaehtoisesti. Ei istumisessa sinänsä mitään pahaa ole, 
         mutta liika on liikaa. Suomalaiset aikuiset viettävät valtaosan päivästään istuen tai 
@@ -33,7 +33,7 @@ function Etusivu() {
 
       <Video />
 
-      <div className = 'text'>
+      <div className = 'front-page-text'>
       <span className ='text-content'>
       Vaikeinta saattaa olla käsittää se, että pitkiä istumajaksoja ei voida kompensoida edes raskaalla 
       liikunnalla. Parin tunnin juoksulenkkikään ei kompensoi istuttua työpäivää. Sen sijaan istumisen 
@@ -62,7 +62,7 @@ function Etusivu() {
       </span>
       </div>
 
-      <div className = 'text'>
+      <div className = 'front-page-text'>
       <span className ='text-content'>
       Työnantajien kannattaisi kiinnittää asiaan huomiota siksikin, että istumisen aiheuttamat sairauskulut 
       ja työtehon laskun aiheuttamat kustannukset ovat vuositasolla miljardiluokkaa.
