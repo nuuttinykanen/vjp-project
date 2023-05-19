@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Menu from './components/menu/Menu';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import Etusivu from './pages/Etusivu';
+import Keskustelu from './pages/Keskustelu';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return ( 
+    <>
+      <HashRouter>
+        <Menu />
+        <Routes>
+          <Route path='/' exact element={<Etusivu/>} />
+          <Route path='/keskustelu' element={<Keskustelu/>} />
+        </Routes>
+      </HashRouter>
+    </>
   );
 }
 

@@ -1,0 +1,216 @@
+
+.comment-area {
+    display: flex;
+    flex-direction: column;
+    align-items: 'center';
+    margin-top: 7vh;
+    margin-left: 5vh;
+}
+
+.comment-input-box {
+    min-height: 200px;
+    width: 80%;
+    max-width: 60vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    outline-width: 0.4vh;
+    outline-color: darkgreen;
+    outline-style: ridge;
+    font-size: 1.5vh;
+}
+
+.author-input-box {
+    height: 50px;
+    width: 10vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    outline-width: 0.4vh;
+    outline-color: darkgreen;
+    outline-style: ridge;
+}
+
+.input-area-title {
+    font-size: 3vh;
+    padding-top: 10px;
+}
+
+.comment-list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 80vh;
+}
+
+.comment-button {
+    height: 40px;
+    width: 80px;
+    background-color: #f5f5f5;
+    font-size: 15pt;
+    margin-top: 15px;
+    cursor: pointer;
+    outline-width: 0.4vh;
+    outline-color: darkgreen;
+    outline-style: ridge;
+}
+
+.comment-container {
+    position: relative;
+    min-height: 15vh;
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 3vh;
+    margin-left: 10vh;
+    font-size: 2vh;
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.comment-info-container {
+    width: 30vh;
+    height: 10vh;
+}
+
+.author-container {
+    height: 100%;
+    background-color: #f5f5f5;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 0.5vh;
+    outline-width: 1vh;
+    outline-color: darkgreen;
+    outline-style: ridge;
+    display: flex;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 1.5vh;
+}
+
+.comment-interact-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    left: -3%;
+    clear: both;
+    height: 50%;
+}
+
+.comment-like-button {
+    background-color: #f5f5f5;
+    width: 45%;
+    outline-width: 0.5vh;
+    outline-color: darkgreen;
+    outline-style: ridge;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+}
+
+.comment-like-button:hover {
+    background-color: lightgray;
+}
+
+.comment-like-button.pressed {
+    background-color: green;
+}
+
+.comment-like-button.pressed:hover {
+    background-color: lightgreen;
+
+}
+
+.comment-delete-button {
+    position: relative;
+    background-color: #f5f5f5;
+    width: 30%;
+    height: 5vh;
+    outline-width: 0.5vh;
+    outline-color: darkgreen;
+    outline-style: ridge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+}
+
+.comment-delete-button:hover {
+    background-color: lightgray;
+}
+
+.comment-text-container {
+    background-color: #f5f5f5;
+    outline-width: 1vh;
+    outline-color: darkgreen;
+    outline-style: ridge;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 18vh;
+    padding: 1vh 1vh 1vh 1vh;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.input-text-info {
+    font-size: 2vh; 
+}
+
+.input-text-info.warning {
+    color: red;
+}
+
+.warning-message {
+    background-color:red;
+    color: #f5f5f5;
+    width: 25vh;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline-width: 0.3vh;
+    outline-color: #f5f5f5;
+    outline-style: ridge;
+}
+
+@media (max-width: 1200px) {
+    .comment-container {
+        min-height:2vh;
+        border-radius: 5px;
+        margin-left: 1vh;
+        font-size: 0.25vh;
+        margin-bottom: 2vh;
+    }
+
+    .comment-text-container {
+        outline-width: 0.22vh;
+        width: 1000px;
+        font-size: 15pt;
+    }
+
+    .comment-like-button {
+        outline-width: 0.22vh;
+        font-size: 1.5vh;
+        width: 50%;
+    }
+
+    .comment-delete-button {
+        outline-width: 0.22vh;
+        font-size: 1.5vh;
+        width: 50%;
+    }
+    
+
+    .author-container {
+        font-size: 1.4vh;
+        float: right;
+        margin-bottom: 0.5vh;
+        width: 100%;
+        outline-width: 0.22vh;
+    }
+}
