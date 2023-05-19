@@ -1,6 +1,6 @@
 import React from 'react';
 import { CommentArea } from '../components/comment/CommentArea';
-import './page.css';
+import './keskustelu.css';
 
 function Etusivu() {
   return (

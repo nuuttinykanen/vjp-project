@@ -1,6 +1,6 @@
 import React from 'react';
 import Video from '../components/video/Video';
-import './page.css'
+import './etusivu.css'
 
 function Etusivu() {
   return (
